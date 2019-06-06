@@ -28,10 +28,10 @@ shader SimpleGradient
 	// Inputs
 	output color Out = 0.0)
 {	
-	vector p = abs(Input-floor(Input)); // 6.6.2919 Mads Drøschler create a tilable domain.
+	vector p = abs(Input-floor(Input)); // 6.6.2019 Mads Drøschler create a tilable domain.
 	
 	Out = F;
-	float inValue = p[0]; // 6.6.2919 Mads Drøschler, refference domain into original code.
+	float inValue = p[0]; // 6.6.2019 Mads Drøschler, refference domain into original code.
 
 #define INT(x,y) \
 	if (inValue >= x##_Value && inValue < y##_Value) \
