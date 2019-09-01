@@ -128,9 +128,7 @@ float Mixer ( float Mix, float Visibility )
 
 shader Layers
 	[[ 		
-				string help			=	"<h1><b>Layers</b></h1>"
-										"Get a copy before we run out!<br><br><b>"
-										"Photoshop layers in OSL, add your stacked layers workflow directly!</b><br>"
+				string help			=	"<b>Layers</b>"										
 	]]
 (
 	// Layer 10 inputs
@@ -195,8 +193,8 @@ shader Layers
 				string widget		=	"popup",
 		   		string help			= 	"Normal, Average, Darken, Multiply, Color Burn, Linear Burn, Lighten, Screen, Color Dodge, Linear Dodge, Spotlight, Spotlight Blend, Overlay, Hard Light, Soft Light, Pin Light, Hard Mix, Difference, Exclusion, Subtract, Divide, Hue, Saturation, Color, Value",
 		   		string options		= 	"Normal|Average|Darken|Multiply|Color Burn|Linear Burn|Lighten|Screen|Color Dodge|Linear Dodge|Spotlight|Spotlight Blend|Overlay|Hard Light|Soft Light|Pin Light|Hard Mix|Difference|Exclusion|Subtract|Divide|Hue|Saturation|Color|Value",
-		   		string label			=	"9:Blend Mode",
-		   		int editable			=	0 
+		   		string label		=	"9:Blend Mode",
+		   		int editable		=	0 
 	]],
 	
 	// Layer 8 inputs
@@ -228,8 +226,8 @@ shader Layers
 				string widget		=	"popup",
 		   		string help			= 	"Normal, Average, Darken, Multiply, Color Burn, Linear Burn, Lighten, Screen, Color Dodge, Linear Dodge, Spotlight, Spotlight Blend, Overlay, Hard Light, Soft Light, Pin Light, Hard Mix, Difference, Exclusion, Subtract, Divide, Hue, Saturation, Color, Value",
 		   		string options		= 	"Normal|Average|Darken|Multiply|Color Burn|Linear Burn|Lighten|Screen|Color Dodge|Linear Dodge|Spotlight|Spotlight Blend|Overlay|Hard Light|Soft Light|Pin Light|Hard Mix|Difference|Exclusion|Subtract|Divide|Hue|Saturation|Color|Value",
-		   		string label			=	"8:Blend Mode",
-		   		int editable			=	0 
+		   		string label		=	"8:Blend Mode",
+		   		int editable		=	0 
 	]],
 	
 	// Layer 7 inputs
@@ -261,8 +259,8 @@ shader Layers
 				string widget		=	"popup",
 		   		string help			= 	"Normal, Average, Darken, Multiply, Color Burn, Linear Burn, Lighten, Screen, Color Dodge, Linear Dodge, Spotlight, Spotlight Blend, Overlay, Hard Light, Soft Light, Pin Light, Hard Mix, Difference, Exclusion, Subtract, Divide, Hue, Saturation, Color, Value",
 		   		string options		= 	"Normal|Average|Darken|Multiply|Color Burn|Linear Burn|Lighten|Screen|Color Dodge|Linear Dodge|Spotlight|Spotlight Blend|Overlay|Hard Light|Soft Light|Pin Light|Hard Mix|Difference|Exclusion|Subtract|Divide|Hue|Saturation|Color|Value",
-		   		string label			=	"7:Blend Mode",
-		   		int editable			=	0 
+		   		string label		=	"7:Blend Mode",
+		   		int editable		=	0 
 	]],
 	
 	// Layer 6
@@ -294,8 +292,8 @@ shader Layers
 				string widget		=	"popup",
 		   		string help			= 	"Normal, Average, Darken, Multiply, Color Burn, Linear Burn, Lighten, Screen, Color Dodge, Linear Dodge, Spotlight, Spotlight Blend, Overlay, Hard Light, Soft Light, Pin Light, Hard Mix, Difference, Exclusion, Subtract, Divide, Hue, Saturation, Color, Value",
 		   		string options		= 	"Normal|Average|Darken|Multiply|Color Burn|Linear Burn|Lighten|Screen|Color Dodge|Linear Dodge|Spotlight|Spotlight Blend|Overlay|Hard Light|Soft Light|Pin Light|Hard Mix|Difference|Exclusion|Subtract|Divide|Hue|Saturation|Color|Value",
-		   		string label			=	"6:Blend Mode",
-		   		int editable			=	0 
+		   		string label		=	"6:Blend Mode",
+		   		int editable		=	0 
 	]],
 	
 	// Layer 5 inputs
@@ -327,8 +325,8 @@ shader Layers
 				string widget		=	"popup",
 		   		string help			= 	"Normal, Average, Darken, Multiply, Color Burn, Linear Burn, Lighten, Screen, Color Dodge, Linear Dodge, Spotlight, Spotlight Blend, Overlay, Hard Light, Soft Light, Pin Light, Hard Mix, Difference, Exclusion, Subtract, Divide, Hue, Saturation, Color, Value",
 		   		string options		= 	"Normal|Average|Darken|Multiply|Color Burn|Linear Burn|Lighten|Screen|Color Dodge|Linear Dodge|Spotlight|Spotlight Blend|Overlay|Hard Light|Soft Light|Pin Light|Hard Mix|Difference|Exclusion|Subtract|Divide|Hue|Saturation|Color|Value",
-		   		string label			=	"5:Blend Mode",
-		   		int editable			=	0 
+		   		string label		=	"5:Blend Mode",
+		   		int editable		=	0 
 	]],
 	
 	// Layer 4 inputs
@@ -360,8 +358,8 @@ shader Layers
 				string widget		=	"popup",
 		   		string help			= 	"Normal, Average, Darken, Multiply, Color Burn, Linear Burn, Lighten, Screen, Color Dodge, Linear Dodge, Spotlight, Spotlight Blend, Overlay, Hard Light, Soft Light, Pin Light, Hard Mix, Difference, Exclusion, Subtract, Divide, Hue, Saturation, Color, Value",
 		   		string options		= 	"Normal|Average|Darken|Multiply|Color Burn|Linear Burn|Lighten|Screen|Color Dodge|Linear Dodge|Spotlight|Spotlight Blend|Overlay|Hard Light|Soft Light|Pin Light|Hard Mix|Difference|Exclusion|Subtract|Divide|Hue|Saturation|Color|Value",
-		   		string label			=	"4:Blend Mode",
-		   		int editable			=	0 
+		   		string label		=	"4:Blend Mode",
+		   		int editable		=	0 
 	]],
 	
 	// Layer 3 inputs
@@ -393,8 +391,8 @@ shader Layers
 				string widget		=	"popup",
 		   		string help			= 	"Normal, Average, Darken, Multiply, Color Burn, Linear Burn, Lighten, Screen, Color Dodge, Linear Dodge, Spotlight, Spotlight Blend, Overlay, Hard Light, Soft Light, Pin Light, Hard Mix, Difference, Exclusion, Subtract, Divide, Hue, Saturation, Color, Value",
 		   		string options		= 	"Normal|Average|Darken|Multiply|Color Burn|Linear Burn|Lighten|Screen|Color Dodge|Linear Dodge|Spotlight|Spotlight Blend|Overlay|Hard Light|Soft Light|Pin Light|Hard Mix|Difference|Exclusion|Subtract|Divide|Hue|Saturation|Color|Value",
-		   		string label			=	"3:Blend Mode",
-		   		int editable			=	0 
+		   		string label		=	"3:Blend Mode",
+		   		int editable		=	0 
 	]],
 	
 	// Layer 2 inputs
@@ -427,8 +425,8 @@ shader Layers
 				string widget		=	"popup",
 		   		string help			= 	"Normal, Average, Darken, Multiply, Color Burn, Linear Burn, Lighten, Screen, Color Dodge, Linear Dodge, Spotlight, Spotlight Blend, Overlay, Hard Light, Soft Light, Pin Light, Hard Mix, Difference, Exclusion, Subtract, Divide, Hue, Saturation, Color, Value",
 		   		string options		= 	"Normal|Average|Darken|Multiply|Color Burn|Linear Burn|Lighten|Screen|Color Dodge|Linear Dodge|Spotlight|Spotlight Blend|Overlay|Hard Light|Soft Light|Pin Light|Hard Mix|Difference|Exclusion|Subtract|Divide|Hue|Saturation|Color|Value",
-		   		string label			=	"2:Blend Mode",
-		   		int editable			=	0 
+		   		string label		=	"2:Blend Mode",
+		   		int editable		=	0 
 	]],
 	
 	// Layer 1 inputs				
@@ -440,8 +438,8 @@ shader Layers
 	color Layer1Mix = 1.0
 	[[ 
 				string label 		= 	"1:Mix",
-				float min				=	0.0,
-				float max				=	1.0,
+				float min			=	0.0,
+				float max			=	1.0,
 	]],
 	
 	float Visibility1 = 100.0
